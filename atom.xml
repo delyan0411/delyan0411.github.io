@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[阳阳--严逸豪]]></title>
+  <subtitle><![CDATA[老婆和我的幸福生活]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://mushroooom.info/"/>
+  <updated>2015-10-12T02:10:13.790Z</updated>
+  <id>http://mushroooom.info/</id>
+  
+  <author>
+    <name><![CDATA[严诚]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[三体]]></title>
+    <link href="http://mushroooom.info/2015/10/12/threebody/"/>
+    <id>http://mushroooom.info/2015/10/12/threebody/</id>
+    <published>2015-10-12T13:16:04.000Z</published>
+    <updated>2015-10-12T02:10:13.790Z</updated>
+    <content type="html"><![CDATA[<p>这三部小说，描写的东西非常的庞大。第一部《三体》还停留在地球上，讲了一个三颗恒星不停做三体运动（这也是整部小说的名字来源）的故事。三体运动是不规则的，一颗行星因为引力变换，不断被某颗恒星捕获，离得太近，于是行星上的“三体人”都被烧死了，文明一次次惨遭毁灭。这个文明顽强地生存了下来，还发现了地球。好吧，这是一个外星人的故事。</p>
+<p>《黑暗森林》讲了三体人要入侵地球，最终失败的事儿。三体人的文明可比地球NB多了，他们派出了邪恶的舰队，要征服地球。但是地球人发现，三体人不会说谎，于是挑选了4个人当“面壁者”，琢磨怎么骗三体人。最后，一个吊儿郎当的中国大学老师面壁成功，发现了宇宙社会学的真理，也就是“黑暗森林法则”，阻止了三体人的入侵。好吧，这是两个星系文明对决的故事。</p>
+<p>《死神永生》讲了宇宙的真相。根据“黑暗森林法则”，一个文明要隐藏自己，然后清理任何其他文明。不过，三体人趁着地球人的一时恍惚，占领了地球，人类展开报复，把三体人星系的坐标发到了宇宙里，然后三体人的星系就被更高级的文明消灭了。更高级的文明还发动了维度打击，整个太阳系也毁灭了。人类这才发现了宇宙的真相，原来宇宙本来是11维的，现在正在从3维降到2维。好吧，这是整个宇宙毁灭的故事。<br><img src="/img/m_05b7541bc3960000014984901971.jpg" alt="三体"><br><strong><a href="/pdf/《三体》三部完整精校版.pdf">《三体》三部完整精校版.pdf</a></strong></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>这三部小说，描写的东西非常的庞大。第一部《三体》还停留在地球上，讲了一个三颗恒星不停做三体运动（这也是整部小说的名字来源）的故事。三体运动是不规则的，一颗行星因为引力变换，不断被某颗恒星捕获，离得太近，于是行星上的“三体人”都被烧死了，文明一次次惨遭毁灭。这个文明顽强地生存]]>
+    </summary>
+    
+      <category term="小说" scheme="http://mushroooom.info/tags/%E5%B0%8F%E8%AF%B4/"/>
+    
+      <category term="科幻" scheme="http://mushroooom.info/tags/%E7%A7%91%E5%B9%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[使用 Markdown + MathJax 在博客里插入数学公式(转)]]></title>
+    <link href="http://mushroooom.info/2015/10/10/how%20to%20use%20MathJax/"/>
+    <id>http://mushroooom.info/2015/10/10/how to use MathJax/</id>
+    <published>2015-10-10T13:16:04.000Z</published>
+    <updated>2015-10-10T06:51:21.939Z</updated>
+    <content type="html"><![CDATA[<h1 id="LaTex_简明教程">LaTex 简明教程</h1><h2 id="例子">例子</h2><p>先来看个例子：</p>
+<blockquote>
+<p>$$<br>\theta_i = \theta_i - \alpha\frac\partial{\partial\theta_i}J(\theta)<br>$$ </p>
+</blockquote>
+<p>上面用 LaTex 格式书写的数学公式经过 MathJax 展示后效果如下：<br>$$<br>\theta_i = \theta_i - \alpha\frac\partial{\partial\theta_i}J(\theta)<br>$$</p>
+<h2 id="规则">规则</h2><p>关于在 Markdown 书写 LaTex 数学公式有几个规则常用规则需要记住：<br><strong>行内公式</strong><br>行内公式使用号作为公式的左右边界，如<code>$h(x) = \theta_0 + \theta_1 x$</code>公式的 LaTex 内容如下</p>
+<p>$h(x) = \theta_0 + \theta_1 x$</p>
+<p><strong>行间公式</strong><br>公式需要独立显示一行时，使用来作为公式的左右边界，如</p>
+<blockquote>
+<p>$$<br>\theta_i = \theta_i - \alpha\frac\partial{\partial\theta_i}J(\theta)<br>$$</p>
+</blockquote>
+<p>的 LaTex 代码为：<br>$$<br>\theta_i = \theta_i - \alpha\frac\partial{\partial\theta_i}J(\theta)<br>$$</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">编码</th>
+<th style="text-align:center">说明</th>
+<th style="text-align:center">示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">\frac</td>
+<td style="text-align:center">分子分母之间的横线</td>
+<td style="text-align:center">$\frac1x$</td>
+</tr>
+<tr>
+<td style="text-align:center">_</td>
+<td style="text-align:center">用下划线来表示下标</td>
+<td style="text-align:center">$x_i$</td>
+</tr>
+<tr>
+<td style="text-align:center">^</td>
+<td style="text-align:center">次方运算符来表示上标</td>
+<td style="text-align:center">$x^i$</td>
+</tr>
+<tr>
+<td style="text-align:center">\sum</td>
+<td style="text-align:center">累加器，上下标用上面介绍的编码来书写</td>
+<td style="text-align:center">$\sum$</td>
+</tr>
+<tr>
+<td style="text-align:center">\alpha</td>
+<td style="text-align:center">希腊字母 alpha</td>
+<td style="text-align:center">$y := \alpha x$</td>
+</tr>
+</tbody>
+</table>
+<p>记住这几个就差不多了，倒回去看一下线性回归算法的成本函数的公式及其 LaTex 代码，对着练习个10分钟基本就可以掌握常用公式的写法了。要特别注意公式里空格和 {} 的运用规则。基本原则是，空格可加可不加，但如果会引起歧义，最好加上空格。{} 是用来组成群组的。比如写一个分式时，分母是一个复杂公式时，可以用 {} 包含起来，这样整个复杂公式都会变成分母了。</p>
+<h2 id="几个非常有用的资源">几个非常有用的资源</h2><p>Github 上有个<a href="https://kerzol.github.io/markdown-mathjax/editor.html" target="_blank" rel="external">在线 Markdown MathJax 编辑器</a>，可以在这里练习，平时写公式时也可以在这里先写好再拷贝到文章里<br>这是<a href="http://www.forkosh.com/mathtextutorial.html" target="_blank" rel="external"> LaTex 完整教程</a>，包含完整的 LaTex 数学公式的内容，包括更高级的格式控制等<br>这是一份PDF 格式的<a href="http://mirrors.ctan.org/info/symbols/math/maths-symbols.pdf" target="_blank" rel="external"> MathJax 支持的数学符号表</a>，当需要书写复杂数学公式时，一些非常特殊的符号的转义字符可以从这里查到<br>好啦，这样差不多就可以写出优美的数学公式啦。</p>
+<p><strong><a href="http://blog.csdn.net/kamidox/article/details/48380239" target="_blank" rel="external">原博文链接</a></strong></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="LaTex_简明教程">LaTex 简明教程</h1><h2 id="例子">例子</h2><p>先来看个例子：</p>
+<blockquote>
+<p>$$<br>\theta_i = \theta_i - \alpha\frac\partial{\partia]]>
+    </summary>
+    
+      <category term="js" scheme="http://mushroooom.info/tags/js/"/>
+    
+      <category term="前端" scheme="http://mushroooom.info/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[宝宝]]></title>
+    <link href="http://mushroooom.info/2015/10/07/baobao/"/>
+    <id>http://mushroooom.info/2015/10/07/baobao/</id>
+    <published>2015-10-07T13:16:04.000Z</published>
+    <updated>2015-10-10T03:33:53.045Z</updated>
+    <content type="html"><![CDATA[<p>2015年9月10号晚上11点06分,我的宝宝出生了,6斤6两<br><a id="more"></a><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2317.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2316.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2315.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2314.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2313.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2312.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2311.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2310.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2309.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2308.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2307.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2306.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2001.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2002.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2003.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2004.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2005.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2006.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2007.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2008.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2009.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2010.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2011.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2014.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2015.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2016.JPG" alt="老婆你怎么看"><br><img src="http://7xnb2v.com1.z0.glb.clouddn.com/IMG_2017.JPG" alt="老婆你怎么看"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>2015年9月10号晚上11点06分,我的宝宝出生了,6斤6两<br>]]>
+    
+    </summary>
+    
+      <category term="宝宝" scheme="http://mushroooom.info/tags/%E5%AE%9D%E5%AE%9D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[老照片]]></title>
+    <link href="http://mushroooom.info/2015/04/06/oldphoto/"/>
+    <id>http://mushroooom.info/2015/04/06/oldphoto/</id>
+    <published>2015-04-06T08:16:04.000Z</published>
+    <updated>2015-10-09T03:58:20.596Z</updated>
+    <content type="html"><![CDATA[<p>一些老照片,一些回忆<a id="more"></a><br><img src="http://oldpic.qiniudn.com/20131019104.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20131020105.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20131020106.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20131020107.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20131020108.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20131020109.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20131020110.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20131020111.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140110126.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140325130.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140325131.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140326137.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140326138.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140326139.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140326140.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140326141.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140326142.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140326144.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140326145.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140326147.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140326148.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140326150.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140326154.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140326155.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140327156.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140327157.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140327158.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140404159.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140404160.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140404161.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140404162.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140404163.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140623164.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140623165.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140623166.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140623167.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/20140623168.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/QQ图片20140819122654.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/QQ图片20140819122757.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/QQ图片20140819122809.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/QQ图片20140819122923.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/QQ图片20140819122932.jpg" alt="老婆你怎么看"><br><img src="http://oldpic.qiniudn.com/QQ图片20140819122935.jpg" alt="老婆你怎么看"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>一些老照片,一些回忆]]>
+    
+    </summary>
+    
+      <category term="回忆" scheme="http://mushroooom.info/tags/%E5%9B%9E%E5%BF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[奶奶]]></title>
+    <link href="http://mushroooom.info/2015/03/05/nainai/"/>
+    <id>http://mushroooom.info/2015/03/05/nainai/</id>
+    <published>2015-03-05T04:55:53.000Z</published>
+    <updated>2015-10-09T03:44:40.446Z</updated>
+    <content type="html"><![CDATA[<h1 id="希望奶奶快点好起来">希望奶奶快点好起来</h1>]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="希望奶奶快点好起来">希望奶奶快点好起来</h1>]]>
+    </summary>
+    
+      <category term="奶奶" scheme="http://mushroooom.info/tags/%E5%A5%B6%E5%A5%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[html5IE8fix]]></title>
+    <link href="http://mushroooom.info/2014/12/05/html5IE8fix/"/>
+    <id>http://mushroooom.info/2014/12/05/html5IE8fix/</id>
+    <published>2014-12-05T04:55:53.000Z</published>
+    <updated>2015-10-09T06:03:47.480Z</updated>
+    <content type="html"><![CDATA[<p>HTML5新增不少比较有意思的标签，主流浏览器都支持了，包括IE9，10。<br>然而IE8或以下版本不支持HTML5新增标签，导致HTML5构造页面在IE8或以下显示页面混乱出错，为了兼容IE8或以下IE浏览器支持html5标签，我们可以这么解决<br>下载 <a href="/javascript/html5.js" title="js">html.js</a>  包含到页面中<br>并且对html标签声明样式<br><code>section,article,aside,header,footer,nav,dialog,figure{display:block;}</code></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>HTML5新增不少比较有意思的标签，主流浏览器都支持了，包括IE9，10。<br>然而IE8或以下版本不支持HTML5新增标签，导致HTML5构造页面在IE8或以下显示页面混乱出错，为了兼容IE8或以下IE浏览器支持html5标签，我们可以这么解决<br>下载 <a hre]]>
+    </summary>
+    
+      <category term="HTML5" scheme="http://mushroooom.info/tags/HTML5/"/>
+    
+      <category term="IE8" scheme="http://mushroooom.info/tags/IE8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[蜜月]]></title>
+    <link href="http://mushroooom.info/2014/12/04/sweetour/"/>
+    <id>http://mushroooom.info/2014/12/04/sweetour/</id>
+    <published>2014-12-04T08:16:04.000Z</published>
+    <updated>2015-10-09T03:51:22.084Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://weddingsweetour.qiniudn.com/照片 1000.jpg" alt="老婆你怎么看"><a id="more"></a><br><img src="http://weddingsweetour.qiniudn.com/照片 1001.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1002.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1003.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1004.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1005.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1006.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1007.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1008.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1009.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1010.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1011.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1012.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1013.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1014.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1015.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1016.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1017.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1018.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1019.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1020.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1021.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1022.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1023.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1024.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1025.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1026.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1027.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1029.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1030.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1031.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1032.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1033.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1034.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1035.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1036.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1037.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1038.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1039.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1040.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1041.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1042.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1043.jpg" alt="老婆你怎么看"><br><img src="http://weddingsweetour.qiniudn.com/照片 1044.jpg" alt="老婆你怎么看"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://weddingsweetour.qiniudn.com/照片 1000.jpg" alt="老婆你怎么看">]]>
+    
+    </summary>
+    
+      <category term="旅行" scheme="http://mushroooom.info/tags/%E6%97%85%E8%A1%8C/"/>
+    
+      <category term="蜜月" scheme="http://mushroooom.info/tags/%E8%9C%9C%E6%9C%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[车辆违章查询]]></title>
+    <link href="http://mushroooom.info/2014/08/13/carsearch/"/>
+    <id>http://mushroooom.info/2014/08/13/carsearch/</id>
+    <published>2014-08-13T04:55:53.000Z</published>
+    <updated>2015-10-09T03:47:13.912Z</updated>
+    <content type="html"><![CDATA[<p></p><p>‘AYT196’,’094528’</p><a id="more"></a><p></p>
+<iframe name="weizhang" src="http://www.cheshouye.com/api/weizhang/?t=ff9600&bd=0" width="800" height="380" frameborder="0" scrolling="no"></iframe>]]></content>
+    <summary type="html">
+    <![CDATA[<p><p>‘AYT196’,’094528’</p>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[婚纱照]]></title>
+    <link href="http://mushroooom.info/2014/08/06/photoslist/"/>
+    <id>http://mushroooom.info/2014/08/06/photoslist/</id>
+    <published>2014-08-06T08:16:04.000Z</published>
+    <updated>2015-10-09T03:51:36.199Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://marrypic.qiniudn.com/001.jpg" alt="老婆你怎么看"><a id="more"></a><br><img src="http://marrypic.qiniudn.com/002.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/004.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/005.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/009.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/010.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/012.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/016.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/018.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/020.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/022.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/025.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/027.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/032.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/033.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/034.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/036.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/039.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/042.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/044.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/047.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/063.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/075.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/081.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/083.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/084.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/086.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/087.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/088.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/089.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/090.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/091.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/092.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/093.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/094.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/095.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/096.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/097.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/098.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/099.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/101.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/102.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/105.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/107.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/108.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/111.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/112.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/113.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/114.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/116.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/118.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/120.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/122.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/123.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/124.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/127.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/129.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/130.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/132.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/133.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/134.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/135.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/137.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/139.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/140.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/142.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/147.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/148.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/151.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/153.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/155.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/156.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/159.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/160.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/163.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/167.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/170.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/171.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/173.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/174.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/179.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/180.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/183.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/184.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/185.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/186.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/187.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/188.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/189.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/191.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/192.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/194.jpg" alt="老婆你怎么看"><br><img src="http://marrypic.qiniudn.com/196.jpg" alt="老婆你怎么看"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://marrypic.qiniudn.com/001.jpg" alt="老婆你怎么看">]]>
+    
+    </summary>
+    
+      <category term="结婚" scheme="http://mushroooom.info/tags/%E7%BB%93%E5%A9%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[回忆我的母亲]]></title>
+    <link href="http://mushroooom.info/2014/05/06/grandma/"/>
+    <id>http://mushroooom.info/2014/05/06/grandma/</id>
+    <published>2014-05-06T04:55:53.000Z</published>
+    <updated>2015-10-09T03:45:40.652Z</updated>
+    <content type="html"><![CDATA[<p>我的母亲生于一九二一年十月初七，于今年3月3日零时不幸去世，享年94岁。母亲共育有我们六个孩子，两儿四女，母亲性格内向，言语不多，是一个平凡而又勤劳，美丽而又十分坚强的母亲。</p>
+
+<p>母亲年轻时在上海一家袜厂工作，小的时候读过四年私塾，认识字，23岁和我父亲在上海结婚，结婚后生下我大姐，我母亲为了抚养孩子，辞去了工作，做了家庭主妇。当时我父亲在上海一家酒店当职员，一家生活过得还可以。到了一九五零年后，由于酒店的倒闭，父亲失了业。那时已经有了四个孩子的父母亲，在上海市里已无能力生存，被迫搬迁到了上海郊区龙华租房子住，在龙华父亲靠打短工养活一家六口人，母亲那时既要照顾四个孩子，又要帮人家洗衣服赚钱来补贴家用。当时生活的困难，可想而知！</p>
+
+
+<p>一九五五年，我在龙华又小又矮的出租小屋子里出生了，为了省钱，父亲顾不得大小生命的安全，竟然自己接生了我。。。。。。由于我的出生，更加重了家里的负担，为了养活我们，父亲报名去了山东煤矿工作，当年的父亲只有37岁，而母亲带着我们5个孩子与生活用品，艰难地踏上了返乡的路。回到了绍兴乡下的奶奶家，当年母亲35岁。从此以后，父亲只有一年一次的探亲假，连头连尾回家一个月都不到，家里的一切都靠母亲一个人撑着。父亲每月发了工资，都是当天就把25元钱寄出，母亲在家要买7个人的柴、米、油、盐，还要添置我们一年四季的衣服，父亲把钱寄出后，必定来一信，信中总是叮嘱母亲要节约开支，合理用钱，此言每封必有。在这样的条件下，母亲还供了我大姐，大哥读书，母亲白天要做饭，洗衣，看管我们几个尚未懂事的孩子，夜里在煤油灯下还要给我们做鞋补衣，一直要到深夜才有入睡。到了夏天，乡下蚊子多的出奇，条件又差，一张床睡二三个孩子是常事，在蚊帐里面又热得很，母亲总是拿把扇给我们扇，一直扇到我们入睡，而此时的母亲已累的筋疲力尽。母亲从小身体就很单薄，为了抚养我们，又吃的不好，身体更加差。记得我小的时候，母亲经常犯头痛，每当头痛时，母亲总是靠吃事先准备好的三分钱一包的止痛粉来止痛，那个时候我们都小，还不懂事，母亲生病无人照顾，实在痛的不行，母亲只能在床上睡上几天。</p> <a id="more"></a><br><br><p>到了六十年代初，是全民大跃进的年代，也是三年自然灾害的年代，我们全家的生活更加困难，吃的是食堂饭，每顿4两饭是我和二哥的中饭，和二哥对分着吃，二哥比我大三岁，他吃不饱，从小就得了胃病。且在此时，母亲怀上了我小妹，母亲顾不得自己的身体，总是省着吃，尽量给我们几个孩子多吃一点。那时母亲的艰辛，母亲的无奈，母亲的坚强，是常人难以体会，难以想象的，但母亲从不叫一声苦，从不掉一滴泪。母亲坚强的个性，深深地烙印在了我们幼小的心灵里。</p>
+
+
+
+<p>那个时候什么都要票子，粮票是票中之票。成年人每月25斤口粮，老人23斤，小孩按年龄增加口粮，照现在25斤粮食也够吃了，但那个年代就是不够吃，因为那时根本没有荤菜吃，没有油吃，家里有点咸菜吃已经算很好了，鱼肉根本看都看不到，家里每到月底米就吃光了，有好多次都得饿着肚子早早把门了，母亲叫我们去睡觉了，到了第二天天还不亮（下个月粮票可以用了），母亲和我大哥又饿着肚子走几里路去粮站排队买来，买好米背回家后，烧好粥给一家大小吃，那个吃的狼吞虎咽，撒一把盐当菜，香的味道也是无法用文字来表达的。这时家里已经有四个小孩要读书了，我母亲卖掉了家里所以值钱的东西，坚持给我两个姐姐两个哥哥去上学。</p>
+
+
+
+<p>有一次，母亲和我二姐到城里银行去卖掉一只戒指，只卖了23元钱，为了节省钱，饿着肚子来回走了六十里路，都不舍得买一点东西吃。母亲到晚年时经常说，“为了养活你们6个孩子，我把家里所有东西都卖掉了，但只要人在，一切都值得”，当时父亲每月寄来的钱总是先要还债，剩下的不到半个月的开支又要向人家借，好在那时我家旁边有一个上海回乡的退休婆婆，当时他们的工资算高了，又加上我母亲借钱的信用很好，这月借，下月必还，要么再借，所以每次向婆婆开口，婆婆总是会借给我们的。</p><br><p>那时我奶奶年纪大了，嘴馋的很，肚子又饿，想吃点糕点，竟偷偷地把家里的米拿出去和人家换全国粮票买糕点吃（在当时吃糕点是一件很奢侈的事），后来被母亲知道了，母亲很生气，但母亲是一个不会吵架的人，只有在自己心里怪奶奶不顾家里，只图自己享受。到了1964年，我大哥去当了兵，大姐也在早两年结了婚，但家里大小仍有六口人，生活仍然相当困难，这时的我已经十岁了，才刚刚读一年级，我二姐二哥因为家里生活实在困难，只读了小学毕业就不读了，但那时也已经算不错了。到了文化大革命时期，我二姐二哥支了农，但粮食却更加不够吃，他们二人分的稻谷又不多，又都在干体力活，要吃得多，要先保证他们吃饱，所以，母亲规定我们要让二姐二哥先吃好，我们才可吃饭。也就是在这年头，我父亲因工作劳累得了肺结核病，在煤矿医院里住了足足一年多，母亲由于没有来回的车费，加上家里有一家子的事，不能去看望父亲，只有在信中千叮咛万嘱咐的与父亲讲要好好的治疗，好好的照顾自己，好好的保护好身体，家里不要记挂，等等。</p>
+
+
+
+<p>一九七一年，我初中毕业，得到了一个支工的名额，那时能当工人，就好比是中了状元，全家那个高兴啊。自从我参加工作后，我经常偷偷的买点粮票往家里寄（因那时买卖粮票是投机倒把行为）以补贴家里的粮食，这样家里的吃饭问题基本能解决了。</p>
+
+<p>到了一九七四年，我父亲退休了，回到了家，二老总算可以在一起了，我母亲总算有个可以商量事的人了，但由于退休工资不高，父母的生活仍然过得很清苦，再加上母亲已经苦惯了，不舍得吃好点的菜，很节约。母亲到了晚年，得了脑血栓，左手不能活动，行动不便，我们几个子女轮流着照顾母亲，好在母亲的心很静，在家里看看电视，看看报，看看书，一晃过了十六个年头，在这十六年中，我回家陪着母亲过年有十二个年头，每年的年三十夜，我和母亲两人分岁。吃好年夜饭，我总是拿出红包，给母亲压岁钱，使母亲高兴高兴，每次母亲总要说：“我拿你的最多，穿你的最多，用你的最多，我用什么来回报你”，没等母亲说完，我会说：“您是我的妈，我给您是应该的，以前您养育我们六个孩子很辛苦，现在应该是我们六个孩子照顾您，报答您的时候，我绝对不要您一分一毫的回报”， 每当听完我的话，母亲的脸上都会出现笑容。我也会趁机多讲点笑话，像哄小孩一样的逗母亲开心，使母亲的过年不感到冷清，孤单。</p>
+
+<p>去年年底，母亲病倒了，在床上起不来了，还经常昏迷，母亲是个十分爱干净的人，在这样体弱病重的情况下，还坚持爬起来大小便，不在床上拉一次尿，我们六个孩子日夜陪护，直到她走。母亲是老弱病，在生病期间一点都没有痛苦的表情，母亲走的很安静。</p>
+
+<p>5月11号是母亲节，母亲离我而去已整整70天了，在这些天中，每每想起我的母亲，眼泪总是情不自禁的往下掉，在人家眼里，母亲已经高寿了，走了也是情理之中，但在我心里，母亲哪怕活到一百岁也不够多，因为她是我的母亲，是养育我长大的母亲，我还没有尽到孝，母亲养育我们的艰辛，困难，正是我们现在报答母亲的时候，但现在母亲走了，我的心很痛。。。。。。在母亲节来临之际，用我拙劣的文字写此文，以示悼念，我的心会好受一点。</p>
+
+
+
+<p>我的母亲是一个普通而平凡的母亲；我的母亲也是一个勤劳而善良的母亲；我的母亲更是一个坚强而美丽的母亲！</p><br><p style="text-align: center;">我永远深深地怀念我的母亲!</p>
+
+
+
+<p><img src="http://oldpic.qiniudn.com/QQ%E5%9B%BE%E7%89%8720140819122809.jpg" alt="爸爸和妈妈"></p>
+<p style="text-align: right;">写于母亲节前:女儿小莉</p>]]></content>
+    <summary type="html">
+    <![CDATA[<p>我的母亲生于一九二一年十月初七，于今年3月3日零时不幸去世，享年94岁。母亲共育有我们六个孩子，两儿四女，母亲性格内向，言语不多，是一个平凡而又勤劳，美丽而又十分坚强的母亲。</p>
+
+<p>母亲年轻时在上海一家袜厂工作，小的时候读过四年私塾，认识字，23岁和我父亲在上海结婚，结婚后生下我大姐，我母亲为了抚养孩子，辞去了工作，做了家庭主妇。当时我父亲在上海一家酒店当职员，一家生活过得还可以。到了一九五零年后，由于酒店的倒闭，父亲失了业。那时已经有了四个孩子的父母亲，在上海市里已无能力生存，被迫搬迁到了上海郊区龙华租房子住，在龙华父亲靠打短工养活一家六口人，母亲那时既要照顾四个孩子，又要帮人家洗衣服赚钱来补贴家用。当时生活的困难，可想而知！</p>
+
+
+<p>一九五五年，我在龙华又小又矮的出租小屋子里出生了，为了省钱，父亲顾不得大小生命的安全，竟然自己接生了我。。。。。。由于我的出生，更加重了家里的负担，为了养活我们，父亲报名去了山东煤矿工作，当年的父亲只有37岁，而母亲带着我们5个孩子与生活用品，艰难地踏上了返乡的路。回到了绍兴乡下的奶奶家，当年母亲35岁。从此以后，父亲只有一年一次的探亲假，连头连尾回家一个月都不到，家里的一切都靠母亲一个人撑着。父亲每月发了工资，都是当天就把25元钱寄出，母亲在家要买7个人的柴、米、油、盐，还要添置我们一年四季的衣服，父亲把钱寄出后，必定来一信，信中总是叮嘱母亲要节约开支，合理用钱，此言每封必有。在这样的条件下，母亲还供了我大姐，大哥读书，母亲白天要做饭，洗衣，看管我们几个尚未懂事的孩子，夜里在煤油灯下还要给我们做鞋补衣，一直要到深夜才有入睡。到了夏天，乡下蚊子多的出奇，条件又差，一张床睡二三个孩子是常事，在蚊帐里面又热得很，母亲总是拿把扇给我们扇，一直扇到我们入睡，而此时的母亲已累的筋疲力尽。母亲从小身体就很单薄，为了抚养我们，又吃的不好，身体更加差。记得我小的时候，母亲经常犯头痛，每当头痛时，母亲总是靠吃事先准备好的三分钱一包的止痛粉来止痛，那个时候我们都小，还不懂事，母亲生病无人照顾，实在痛的不行，母亲只能在床上睡上几天。</p>]]>
+    
+    </summary>
+    
+      <category term="外婆" scheme="http://mushroooom.info/tags/%E5%A4%96%E5%A9%86/"/>
+    
+      <category term="母亲" scheme="http://mushroooom.info/tags/%E6%AF%8D%E4%BA%B2/"/>
+    
+  </entry>
+  
+</feed>
