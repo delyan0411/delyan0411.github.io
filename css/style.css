@@ -1192,6 +1192,16 @@ a {
 #article-nav #article-nav-older {
   float: right;
 }
+.toc {
+  float: right;
+  margin-left: 40px;
+  padding: 10px 20px;
+  background: #f1f1f1;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 3px #bbb;
+  box-shadow: 0 0 3px #bbb;
+}
 @-moz-keyframes cd-bounce-1 {
   0% {
     opacity: 0;
