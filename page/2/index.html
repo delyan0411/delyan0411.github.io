@@ -240,6 +240,15 @@
       <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
     </nav>
   
+
+
+<script>
+  var tocEx = function(el){
+    var toc = document.querySelector(el), content = toc.innerHTML;
+    content = content.replace('<!-- toc -->', '<div class="toc">').replace('<!-- tocstop -->', '</div>');
+    toc.innerHTML = content;
+  }('.article-entry');
+</script>
 </div>
       <footer id="footer">
   <div class="outer">
