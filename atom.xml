@@ -4,7 +4,7 @@
   <subtitle><![CDATA[太奶奶快点好起来]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://mushroooom.info/"/>
-  <updated>2015-10-21T05:00:20.820Z</updated>
+  <updated>2015-10-21T07:32:14.981Z</updated>
   <id>http://mushroooom.info/</id>
   
   <author>
@@ -13,6 +13,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[测试七牛上传]]></title>
+    <link href="http://mushroooom.info/2015/10/21/testqiniupic/"/>
+    <id>http://mushroooom.info/2015/10/21/testqiniupic/</id>
+    <published>2015-10-21T13:16:04.000Z</published>
+    <updated>2015-10-21T07:32:14.981Z</updated>
+    <content type="html"><![CDATA[<img title="&#x56FE;&#x7247;&#x6807;&#x9898;" alt="&#x56FE;&#x7247;&#x8BF4;&#x660E;" src="http://7xnoov.com1.z0.glb.clouddn.com//images/9I[KHX]4`Q7$KX3}K(E1KV8.gif">
+<img title="&#x56FE;&#x7247;&#x6807;&#x9898;" alt="&#x56FE;&#x7247;&#x8BF4;&#x660E;" src="http://7xnoov.com1.z0.glb.clouddn.com//images/20131019104.jpg">
+<img title="&#x56FE;&#x7247;&#x6807;&#x9898;" alt="&#x56FE;&#x7247;&#x8BF4;&#x660E;" src="http://7xnoov.com1.z0.glb.clouddn.com//images/20131020105.jpg">
+<img title="&#x56FE;&#x7247;&#x6807;&#x9898;" alt="&#x56FE;&#x7247;&#x8BF4;&#x660E;" src="http://7xnoov.com1.z0.glb.clouddn.com//images/20131020106.jpg">
+<img title="&#x56FE;&#x7247;&#x6807;&#x9898;" alt="&#x56FE;&#x7247;&#x8BF4;&#x660E;" src="http://7xnoov.com1.z0.glb.clouddn.com//images/20131020107.jpg">]]></content>
+    <summary type="html">
+    <![CDATA[<img title="&#x56FE;&#x7247;&#x6807;&#x9898;" alt="&#x56FE;&#x7247;&#x8BF4;&#x660E;" src="http://7xnoov.com1.z0.glb.clouddn.com//images/9I[K]]>
+    </summary>
+    
+      <category term="hexo" scheme="http://mushroooom.info/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[三体]]></title>
